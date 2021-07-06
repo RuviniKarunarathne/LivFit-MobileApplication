@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq">
+
+    <TextView
+        android:id="@+id/tvTopicFaq"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/faq"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvQuestion2"
+        android:layout_width="350dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/qu2"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnswer1" />
+
+    <TextView
+        android:id="@+id/tvQuestion1"
+        android:layout_width="350dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/qu1"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTopicFaq" />
+
+    <TextView
+        android:id="@+id/tvAnswer1"
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/ans1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion1" />
+
+    <TextView
+        android:id="@+id/tvAnswer2"
+        android:layout_width="350dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/an2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion2" />
+
+    <Button
+        android:id="@+id/btnAddFaq"
+        android:layout_width="302dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/addFaq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnswer2" />
+
+    <Button
+        android:id="@+id/btnLUNCH2"
+        android:layout_width="304dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/addFeedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddFaq"
+        app:layout_constraintVertical_bias="0.088" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">LivFit</string>
+    <string name="tdytxt">Todays Steps</string>
+    <string name="stepsw">0000</string>
+    <string name="calonumw">000</string>
+    <string name="timeam">00:00</string>
+    <string name="kmnum">0.0</string>
+    <string name="calow">Calories</string>
+    <string name="timest">Time</string>
+    <string name="km">KM</string>
+    <string name="cardiobtn1">Push Ups</string>
+    <string name="cardiobtn2">Crunches</string>
+    <string name="cardiobtn3">Plank</string>
+    <string name="cardiobtn4">Jumping Jacks</string>
+    <string name="cardiobtn5">High Knees</string>
+    <string name="cardiobtn6">Mountain Climbers</string>
+    <string name="pshtxt">Push Ups</string>
+    <string name="durationw">Duration</string>
+    <string name="caltxt">Calories Burnt</string>
+    <string name="calnm">000</string>
+    <string name="cdtxt">Cardio Workouts</string>
+    <string name="searchw">Search</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgetPW">Forgot password?</string>
+    <string name="Firstname">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="continueAction">Continue</string>
+    <string name="age">Age</string>
+    <string name="bday">Date of Birth</string>
+    <string name="currentWeight">Weight</string>
+    <string name="height">Height</string>
+    <string name="targetWeight">Target Weight</string>
+    <string name="createAccount">Create My Account</string>
+    <string name="previous">Previous</string>
+    <string name="bmiDisplay">Your current BMI</string>
+    <string name="daliyCalDispaly">Daily calorie consumption should be</string>
+    <string name="dashBoardRef">Go to Dashboard</string>
+    <string name="today">Today</string>
+    <string name="kilogram">KG</string>
+    <string name="centimeter">CM</string>
+    <string name="CalorieGoal">Goal</string>
+    <string name="ReminingCal">Calories Remaining</string>
+    <string name="consumCal">Calorie Consumption</string>
+    <string name="burentCal">Calories Burned</string>
+    <string name="waterConsumption">Water Consumption</string>
+    <string name="cups">Cups</string>
+    <string name="settings">Settings</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="deleteAcc">Delete Account</string>
+    <string name="logout">Log Out</string>
+    <string name="general">General</string>
+    <string name="pushNot">Push Notifications</string>
+    <string name="theme">Theme</string>
+    <string name="help">Help</string>
+    <string name="aboutUs">About Us</string>
+    <string name="faq">FAQ</string>
+    <string name="updateAcc">Update Account</string>
+    <string name="title_activity_login_page">loginPage</string>
+    <string name="settingsAccount">Account</string>
+    <string name="Details1">Copyright 2021, LIVFIT, Inc.</string>
+    <string name="Details2">All right reserved</string>
+    <string name="qu1">How often should I workout?</string>
+    <string name="ans1">If you really want to see results reflected on the scale and continue to make progress over time, you need to commit to working out at least four to five days per week. But remember, you will build up to this. To start, you might only want to do two or three days per week and slowly work your way up to five days.</string>
+    <string name="qu2">Is dieting a good way to lose weight?</string>
+    <string name="an2">Losing weight and maintaining a healthy weight should come as a natural by-product of an overall healthy lifestyle. So to conclude, dieting is a great way to manage your weight, as the food and drink we consume is usually going to be the biggest factor in our weight.</string>
+    <string name="addFaq">Send us your question</string>
+    <string name="addFeedback">Send Feedback</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="todo">TODO</string>
+
+
+
+
+
+
+    <string name="sholtxt">Shoulder Workouts</string>
+    <string name="sholbtn1">Shoulder Press</string>
+    <string name="sholbtn2">Laterals</string>
+    <string name="sholbtn3">Front Raise</string>
+    <string name="sholbtn4">High Pull</string>
+    <string name="legtxt">Leg Workouts</string>
+    <string name="lgbtn1">Squats</string>
+    <string name="lgbtn2">Leg Press</string>
+    <string name="lgbtn3">Lunges</string>
+    <string name="lgbtn4">Deadlift</string>
+    <string name="chsttxt">Chest Workouts</string>
+    <string name="chbtn1">Bench Press</string>
+    <string name="chbtn2">Chest Press</string>
+    <string name="chbtn3">Dumbbell Flies</string>
+    <string name="chbtn4">Cable Crossover</string>
+    <string name="bktxt">Back Workouts</string>
+    <string name="bkbtn1">Back Press</string>
+    <string name="bkbtn2">Rowing</string>
+    <string name="bkbtn3">Lat Pulldown</string>
+    <string name="bkbtn4">T Bar</string>
+    <string name="armtxt">Arm Workouts</string>
+    <string name="armbtn1">Bicep Curl</string>
+    <string name="armbtn2">Preacher Curl</string>
+    <string name="armbtn3">Tricep Pushdown</string>
+    <string name="armbtn4">Barbell Curl</string>
+    <string name="calbpmin">Calories Burnt per Minute</string>
+    <string name="durinsert">Confirm</string>
+    <string name="Wrktinsert">Add To Workout</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="enter_name">Please enter first name</string>
+    <string name="enter_lname">Please enter last name</string>
+    <string name="enter_Uname">Please enter username</string>
+    <string name="enter_pw">Please enter password</string>
+    <string name="enter_email">Please enter email address</string>
+    <string name="valid_mail">Please enter a valid mail address</string>
+    <string name="valid_passwaord">Password should have 6 digits</string>
+    <string name="enter_age">Please enter current age</string>
+    <string name="FnameError">Please enter a correnct first name</string>
+    <string name="LnameError">Please enter a correct last name</string>
+    <string name="ageValid">Please enter a correct age</string>
+    <string name="enterNowWeight">Please enter your current weight</string>
+    <string name="enterNowHeight">Please enter your current height</string>
+    <string name="enterTargetWeight">Please enter your weight target</string>
+    <string name="Email">Email</string>
+    <string name="emptyEmailLogin">Please enter your mail address</string>
+    <string name="emptyPassword">Please enter your password</string>
+    <string name="emptyUsernameLogin">Please enter username</string>
+    <string name="darkTheme">Dark Theme</string>
+    <string name="invalid_duration">Enter a valid duration</string>
+
+
+    <string name="mainac">CALORIE COUNTER</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snacks</string>
+    <string name="neutbutton">Nutrition</string>
+    <string name="waterbutton">Water Intake</string>
+    <string name="updatebreakfast">Update Breakfast Details</string>
+    <string name="updatelunch">Update Lunch Details</string>
+    <string name="updatedinner">Update Dinner Details</string>
+    <string name="updatesnack">Update Snacks Details</string>
+    <string name="updatebutton">Update</string>
+    <string name="tcalories">Total Calories</string>
+    <string name="tprotine">Total Protine</string>
+    <string name="tfat">Total Fat</string>
+    <string name="tcabohydrate">Total Carbohydrates</string>
+    <string name="tcholostrol">Total Cholesterol</string>
+    <string name="tfiber">Total Fiber</string>
+    <string name="Calories">Calories</string>
+    <string name="Protine">Protine</string>
+    <string name="Fat">Fat</string>
+    <string name="Carbohydrates">Carbohy</string>
+    <string name="Cholesterol">Cholest</string>
+    <string name="Fiber">Fiber</string>
+    <string name="water">Water Tracker</string>
+    <string name="wateradd">Submit</string>
+    <string name="dashBoard">Dash Board</string>
+
+
+</resources>

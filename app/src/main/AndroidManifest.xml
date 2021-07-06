@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.LivFit">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADproject_WorkoutHandling">
+
+
+
+        <activity android:name=".SplashScreen">
+
+        </activity>
+        <activity android:name=".ShoulderWorkout" />
+
+        <activity android:name=".UserInterfaceOne" />
+        <activity android:name=".ChestWorkout" />
+        <activity android:name=".BackWorkout" />
+        <activity android:name=".ArmsWorkout" />
+        <activity android:name=".LegsWorkout" />
+        <activity android:name=".faq" />
+        <activity android:name=".aboutUs" />
+        <activity android:name=".updateAccount" />
+        <activity android:name=".settings" />
+
+        <activity android:name=".Dashboard" >
+
+        </activity>
+        <activity android:name=".DisplayBMI" />
+        <activity android:name=".Register_fitness_data"/>
+        <activity android:name=".Register" />
+        <activity android:name=".login" />
+
+        <activity android:name=".SearchFood"/>
+        <activity android:name=".StepCounter" />
+        <activity android:name=".PushupWorkout" />
+        <activity android:name=".CardioWorkout" />
+
+        <activity android:name=".SearchWorkout"/>
+        <activity android:name=".EditFood"/>
+
+        <activity android:name=".SearchWorkout">
+
+        </activity>
+        <activity android:name=".EditFood"/>
+
+            </application>
+
+
+        <activity android:name=".DisplayBMI" />
+        <activity android:name=".Register_fitness_data"/>
+        <activity android:name=".Register" />
+
+
+
+        <activity android:name=".StepCounter" />
+        <activity android:name=".PushupWorkout" />
+        <activity android:name=".CardioWorkout" />
+        <activity android:name=".SearchWorkout"/>
+
+
+        <activity android:name=".SnackUpdate"/>
+        <activity android:name=".DinnerUpdate" />
+        <activity android:name=".LunchUpdate" />
+        <activity android:name=".BreakfastUpdate" />
+        <activity android:name=".WaterIntake" />
+        <activity android:name=".NeutritionInfo" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Dashboard" />
+            <activity android:name=".login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+    </application>
+
+
+</manifest>

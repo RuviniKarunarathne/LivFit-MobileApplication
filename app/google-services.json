@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "607369827417",
+    "firebase_url": "https://livfit-7c794-default-rtdb.firebaseio.com",
+    "project_id": "livfit-7c794",
+    "storage_bucket": "livfit-7c794.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607369827417:android:4ffbfe5b90ceda88978d48",
+        "android_client_info": {
+          "package_name": "com.example.LivFit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607369827417-pvfnhsr176mkojuhc4ioa5qkk2vat0h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5WiE7mlVfLXwzVxcWjZGwRdkmK3zCT04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607369827417-pvfnhsr176mkojuhc4ioa5qkk2vat0h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

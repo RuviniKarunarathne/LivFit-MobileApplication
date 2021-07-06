@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="119dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/livfit_logo" />
+
+    <TextView
+        android:id="@+id/tvToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/today"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tvGoal"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/CalorieGoal"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvToday" />
+
+    <TextView
+        android:id="@+id/tvCalRem"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/ReminingCal"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGoal" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSteps"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtnAddWorkout"
+        app:layout_constraintTop_toBottomOf="@+id/tvWaterCons"
+        app:srcCompat="@drawable/steps" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAddWorkout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnSteps"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtnAddWater"
+        app:layout_constraintTop_toBottomOf="@+id/tvWaterCons"
+        app:srcCompat="@drawable/workout" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAddMeals"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnAddWater"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWaterCons"
+        app:srcCompat="@drawable/meals" />
+
+    <ImageButton
+        android:id="@+id/imgBtnAddWater"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnAddWorkout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtnAddMeals"
+        app:layout_constraintTop_toBottomOf="@+id/tvWaterCons"
+        app:srcCompat="@drawable/watercount" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings" />
+
+    <EditText
+        android:id="@+id/displayGoal"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvGoal"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/displayConsumptionCal"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvCalConsum"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCalConsum"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/consumCal"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalRem" />
+
+    <TextView
+        android:id="@+id/tvCups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/cups"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/displayWaterConsumption"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/displayBurnCal"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvCalBurn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCalBurn"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/burentCal"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalConsum" />
+
+    <EditText
+        android:id="@+id/displayWaterConsumption"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvWaterCons"
+        app:layout_constraintEnd_toStartOf="@+id/tvCups" />
+
+    <TextView
+        android:id="@+id/tvWaterCons"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/waterConsumption"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalBurn" />
+
+    <EditText
+        android:id="@+id/displayRemCal"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvCalRem"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

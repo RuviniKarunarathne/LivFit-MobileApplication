@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".SearchWorkout">
+
+    <ImageButton
+        android:id="@+id/imageButtonarms"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonchest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonlegs"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arms" />
+
+    <ImageButton
+        android:id="@+id/imageButtonlegs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonback"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonarms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/legs" />
+
+    <ImageButton
+        android:id="@+id/imageButtonback"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtoncardio"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonchest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonlegs"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/imageButtonchest"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonshuol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonback"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonarms"
+        app:srcCompat="@drawable/chest" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncardio"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonshuol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonback"
+        app:srcCompat="@drawable/cardio" />
+
+    <ImageButton
+        android:id="@+id/imageButtonshuol"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtoncardio"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonchest"
+        app:srcCompat="@drawable/shoulders" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

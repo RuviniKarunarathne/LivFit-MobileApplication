@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateAccount">
+
+    <TextView
+        android:id="@+id/tvUpdateCurrWeightUnit"
+        android:layout_width="22dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/kilogram"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etUpdateCurWeight"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUpdateCurHeightUnit"
+        android:layout_width="22dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/centimeter"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etUpdateCurrHeight"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUpdateTargetWeightUnit"
+        android:layout_width="22dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/kilogram"
+        android:textColor="@color/orange"
+        app:layout_constraintBaseline_toBaselineOf="@+id/etUpdateTargetWeight"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUpdateTargetWeight"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/targetWeight"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpdateHeight" />
+
+    <TextView
+        android:id="@+id/tvUpdateUsername"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/username"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUpdateWeight"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/currentWeight"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpdateAge" />
+
+    <TextView
+        android:id="@+id/tvUpdateHeight"
+        android:layout_width="95dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/height"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpdateWeight" />
+
+    <TextView
+        android:id="@+id/tvUpdateAge"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/age"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpdateUsername" />
+
+    <EditText
+        android:id="@+id/etUpdateAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvUpdateAge"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etUpdateCurWeight"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvUpdateWeight"
+        app:layout_constraintEnd_toStartOf="@+id/tvUpdateCurrWeightUnit" />
+
+    <EditText
+        android:id="@+id/etUpdateUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvUpdateUsername"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etUpdateCurrHeight"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvUpdateHeight"
+        app:layout_constraintEnd_toStartOf="@+id/tvUpdateCurHeightUnit" />
+
+    <EditText
+        android:id="@+id/etUpdateTargetWeight"
+        android:layout_width="163dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="13dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvUpdateTargetWeight"
+        app:layout_constraintEnd_toStartOf="@+id/tvUpdateTargetWeightUnit" />
+
+    <Button
+        android:id="@+id/btnUpdateAccount"
+        android:layout_width="256dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="166dp"
+        android:text="@string/updateAcc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpdateTargetWeight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

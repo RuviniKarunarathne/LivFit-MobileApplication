@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrnd"
+    tools:context=".StepCounter">
+
+    <TextView
+        android:id="@+id/textViewtimestep"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:text="@string/timest"
+        android:textAlignment="center"
+        android:textColor="#FF7F50"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewcalstep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewcalstep"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtimenum"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/textViewmilestep"
+        android:layout_width="57dp"
+        android:layout_height="29dp"
+        android:text="@string/km"
+        android:textAlignment="center"
+        android:textColor="#FF7F50"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewcalstep"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmilenum"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/textViewcalstep"
+        android:layout_width="102dp"
+        android:layout_height="41dp"
+        android:text="@string/calow"
+        android:textAlignment="center"
+        android:textColor="#FF7F50"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewmilestep"
+        app:layout_constraintEnd_toStartOf="@+id/textViewmilestep"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewtimestep" />
+
+    <TextView
+        android:id="@+id/textViewtimenum"
+        android:layout_width="99dp"
+        android:layout_height="54dp"
+        android:text="@string/timeam"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewcalnum"
+        app:layout_constraintEnd_toStartOf="@+id/textViewcalnum"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewmilenum"
+        android:layout_width="99dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="145dp"
+        android:text="@string/kmnum"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewcalnum"
+        app:layout_constraintTop_toBottomOf="@+id/textViewstepnum" />
+
+    <TextView
+        android:id="@+id/textViewstepnum"
+        android:layout_width="229dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/stepsw"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtdysteps" />
+
+    <TextView
+        android:id="@+id/textViewtdysteps"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/tdytxt"
+        android:textAlignment="center"
+        android:textColor="#FF7F50"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewcalnum"
+        android:layout_width="99dp"
+        android:layout_height="54dp"
+        android:text="@string/calonumw"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewmilenum"
+        app:layout_constraintEnd_toStartOf="@+id/textViewmilenum"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewtimenum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
